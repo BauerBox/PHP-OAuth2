@@ -11,9 +11,18 @@
             "email": "anis.berejeb@gmail.com"
         }
     ],
+    "license": "MIT",
     "autoload": {
-        "classmap": [
-            "../"
-        ]
+        "psr-0": { "Oauth2": "../" }
+    },
+    "version": "1.1",
+    "type": "library",
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "authorization"
+    ],
+    "require": {
+        "php": ">=5.3.2"
     }
 }
